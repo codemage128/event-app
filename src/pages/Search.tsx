@@ -33,8 +33,8 @@ function Search() {
         <meta name="keywords" content='search, filter, date, keywords, event name, event, description' />
         <title>{`Event App | Search`}</title>
       </Helmet>
-      <div className="grid grid-flow-row-dense grid-cols-5 md:grid-cols-5 sm:grid-cols-3 mx-auto max-w-7xl">
-        <div className="grid col-span-4 grid-cols-2 md:grid-cols-2 sm:grid-cols-3 gap-6 p-16 mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="grid grid-flow-row-dense grid-cols-1 md:grid-cols-5 sm:grid-cols-3 mx-auto max-w-7xl ">
+        <div className="order-last grid col-span-4 grid-cols-1 md:grid-cols-2 sm:grid-cols-3 gap-6 p-16 mx-auto max-w-7xl px-6 lg:px-8">
           {events &&
             events.map((event: EventType) => (
               <Item key={event.id} event={event} />

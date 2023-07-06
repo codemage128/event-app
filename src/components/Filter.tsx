@@ -39,7 +39,7 @@ function Filter({
   };
 
   return (
-    <div className="isolate bg-white py-24">
+    <div className="isolate bg-white py-24 p-8">
       <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
         <div className="sm:col-span-2">
           <label className="block text-sm font-semibold leading-6 text-gray-900">

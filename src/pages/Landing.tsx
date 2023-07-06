@@ -21,7 +21,7 @@ function Landing() {
         <title>{`Event App | Home`}</title>
       </Helmet>
       <Header />
-      <div className="grid grid-cols-2 md:grid-cols-3 sm:grid-cols-3 gap-6 p-16 mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-3 gap-6 p-16 mx-auto max-w-7xl px-6 lg:px-8">
         {filteredEvents &&
           filteredEvents.map((event: EventType) => (
             <Item key={event.id} event={event} />
